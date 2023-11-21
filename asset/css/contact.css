@@ -1,0 +1,31 @@
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+}
+.flex-group{
+    margin-bottom: 20px;
+}
+label{
+    margin-bottom: 5px;
+}
+input,textarea, button{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(165,33,33);
+    width: 100%;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    color: rgb(165,33,33);
+    border: none;
+    font-weight: bold;
+    font-size:large;
+    border-radius: 50% 300px;
+}
+.form-group:last-child{
+    align-self: center;
+}
